@@ -21,7 +21,8 @@
     "format": "prettier --write src/",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "init-msw": "msw init public/"
+    "init-msw": "msw init public/",
+    "chromatic": "npx chromatic --project-token=chpt_189e65c726ffd1e"
   },
   "dependencies": {
     "pinia": "^3.0.4",
@@ -37,6 +38,7 @@
     "@vitest/browser-playwright": "^4.0.16",
     "@vitest/coverage-v8": "^4.0.16",
     "@vue/tsconfig": "^0.8.1",
+    "chromatic": "^15.2.0",
     "msw": "^2.12.7",
     "msw-storybook-addon": "^2.0.6",
     "playwright": "^1.57.0",
